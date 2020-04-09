@@ -59,3 +59,6 @@
 /(vendor|system/vendor)/bin/init\.oem\.panel\.sh        u:object_r:init-oem-panel-sh_exec:s0
 
 /data/vendor/misc/cutback(/.*)?                         u:object_r:vendor_radio_data_file:s0
+
+#Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)? u:object_r:sysfs_kcal:s0
